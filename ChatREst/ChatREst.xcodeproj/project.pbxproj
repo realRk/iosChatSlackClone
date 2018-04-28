@@ -11,13 +11,14 @@
 		14FB4403CF8A2C01F5EF30AF /* Pods_ChatREstUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CD4B0F33D705723D1864CE /* Pods_ChatREstUITests.framework */; };
 		384CA611303678757009753A /* Pods_ChatREst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C2FB0EA9026595DED9735A /* Pods_ChatREst.framework */; };
 		5047B1AE2093684400A2A772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047B1AD2093684400A2A772 /* AppDelegate.swift */; };
-		5047B1B02093684400A2A772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047B1AF2093684400A2A772 /* ViewController.swift */; };
 		5047B1B32093684400A2A772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047B1B12093684400A2A772 /* Main.storyboard */; };
 		5047B1B52093684400A2A772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5047B1B42093684400A2A772 /* Assets.xcassets */; };
 		5047B1B82093684400A2A772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047B1B62093684400A2A772 /* LaunchScreen.storyboard */; };
 		5047B1C32093684400A2A772 /* ChatREstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047B1C22093684400A2A772 /* ChatREstTests.swift */; };
 		5047B1CE2093684400A2A772 /* ChatREstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047B1CD2093684400A2A772 /* ChatREstUITests.swift */; };
 		5085AECF20944CE100E18427 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5085AECD20944CE000E18427 /* SWRevealViewController.m */; };
+		5085AED42094611A00E18427 /* chatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085AED32094611A00E18427 /* chatVc.swift */; };
+		5085AED62094612A00E18427 /* ChannelVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085AED52094612A00E18427 /* ChannelVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		1F6E803CE0688101D1D6E59E /* Pods-ChatREst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatREst.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatREst/Pods-ChatREst.debug.xcconfig"; sourceTree = "<group>"; };
 		5047B1AA2093684400A2A772 /* ChatREst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatREst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5047B1AD2093684400A2A772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5047B1AF2093684400A2A772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5047B1B22093684400A2A772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5047B1B42093684400A2A772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5047B1B72093684400A2A772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		5085AECC20944CE000E18427 /* ChatREst-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatREst-Bridging-Header.h"; sourceTree = "<group>"; };
 		5085AECD20944CE000E18427 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5085AECE20944CE000E18427 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5085AED32094611A00E18427 /* chatVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatVc.swift; sourceTree = "<group>"; };
+		5085AED52094612A00E18427 /* ChannelVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVc.swift; sourceTree = "<group>"; };
 		808FA746410EBB0C6E9E5A28 /* Pods-ChatREstTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatREstTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatREstTests/Pods-ChatREstTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83CD4B0F33D705723D1864CE /* Pods_ChatREstUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatREstUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85014E74AF0C0682EC617150 /* Pods-ChatREst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatREst.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatREst/Pods-ChatREst.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +98,6 @@
 		5047B1A12093684400A2A772 = {
 			isa = PBXGroup;
 			children = (
-				5085AECB20944C8900E18427 /* supportingFileSwreveal */,
 				5047B1AC2093684400A2A772 /* ChatREst */,
 				5047B1C12093684400A2A772 /* ChatREstTests */,
 				5047B1CC2093684400A2A772 /* ChatREstUITests */,
@@ -119,8 +120,11 @@
 		5047B1AC2093684400A2A772 /* ChatREst */ = {
 			isa = PBXGroup;
 			children = (
+				5085AED2209460F900E18427 /* Controller */,
+				5085AED1209460F400E18427 /* View */,
+				5085AED0209460EF00E18427 /* Model */,
+				5085AECB20944C8900E18427 /* supportingFileSwreveal */,
 				5047B1AD2093684400A2A772 /* AppDelegate.swift */,
-				5047B1AF2093684400A2A772 /* ViewController.swift */,
 				5047B1B12093684400A2A772 /* Main.storyboard */,
 				5047B1B42093684400A2A772 /* Assets.xcassets */,
 				5047B1B62093684400A2A772 /* LaunchScreen.storyboard */,
@@ -155,6 +159,29 @@
 				5085AECC20944CE000E18427 /* ChatREst-Bridging-Header.h */,
 			);
 			path = supportingFileSwreveal;
+			sourceTree = "<group>";
+		};
+		5085AED0209460EF00E18427 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5085AED1209460F400E18427 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5085AED2209460F900E18427 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5085AED32094611A00E18427 /* chatVc.swift */,
+				5085AED52094612A00E18427 /* ChannelVc.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		6ACF28C961302C2F37C56C77 /* Pods */ = {
@@ -480,7 +507,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5047B1B02093684400A2A772 /* ViewController.swift in Sources */,
+				5085AED62094612A00E18427 /* ChannelVc.swift in Sources */,
+				5085AED42094611A00E18427 /* chatVc.swift in Sources */,
 				5047B1AE2093684400A2A772 /* AppDelegate.swift in Sources */,
 				5085AECF20944CE100E18427 /* SWRevealViewController.m in Sources */,
 			);
@@ -655,7 +683,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.ChatREst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "supportingFileSwreveal/ChatREst-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./ChatREst/supportingFileSwreveal/ChatREst-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -673,7 +701,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.ChatREst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "supportingFileSwreveal/ChatREst-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "./ChatREst/supportingFileSwreveal/ChatREst-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
