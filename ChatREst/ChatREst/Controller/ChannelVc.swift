@@ -10,10 +10,10 @@ import UIKit
 
 class ChannelVc: UIViewController {
 
-    @IBOutlet weak var sandWitchButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        sandWitchButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        
         
 
         // Do any additional setup after loading the view.
